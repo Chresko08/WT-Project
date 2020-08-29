@@ -1,0 +1,68 @@
+<html>
+<head>
+<title>Introduction . getgoing</title>
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap-4.0.0/dist/css/bootstrap.css" type="text/css">
+    <script type="text/javascript" src="bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="bootstrap-4.0.0/dist/js/bootstrap.js"></script>
+</head>
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-sm bg-white">
+        <a class="navbar-brand" href="index.html">
+    <img src="logo.png" alt="Logo" style="width:110px;">
+  </a>
+  <ul class="navbar-nav ">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html"><h4>Home</h4></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="photos.html"><h4>Photos</h4></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="login.html"><h4>Login</h4></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html"><h4>About</h4></a>
+    </li>
+  </ul>
+
+</nav>
+<br>
+<br>
+         <div class="container-fluid">
+    <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center">
+                <input class="form-control form-control-lg" type="email" id="email" placeholder="Email ID" required="">
+            </div>
+            <div class="col-md-4"></div>
+    </div>
+    <br>   
+    <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center"><input class="form-control form-control-lg" type="password" id="pwd" placeholder="Password" required=""></div>
+            <div class="col-md-4"></div>
+    </div>
+    <br>   
+    <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4 text-center"><button type="submit" class="btn btn-success btn-lg" onclick="myFunction()">Sign in</button></div>
+            <div class="col-md-4"></div>
+    </div>
+</div>
+
+<script>
+function myFunction() {
+    if ((document.getElementById("email").value=="shubhamsrivastava08@gmail.com") && (document.getElementById("pwd").value=="12345"))
+    {
+        alert("Logged in as admin");
+    }
+    else
+    {
+        alert("Logged in as user");
+    }
+}
+</script>
+
+</body>
+</html>
