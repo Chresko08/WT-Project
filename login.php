@@ -6,7 +6,7 @@
 </head>
 <body class="bg-dark text-white">
 
-<?php include 'topPanel.php' ?>
+<?php include "topPanel.php"; ?>
 
          <div class="container-fluid">
     <div class="row">
