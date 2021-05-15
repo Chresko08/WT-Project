@@ -1,17 +1,18 @@
 <html>
-<head>
-<title>Introduction . getgoing</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</head>
-<body class="bg-dark text-white">
 
-<?php include "topPanel.php"; ?>
+  <head>
+    <title>Introduction . getgoing</title>
+    <?php include("includes.php") ?>
+  </head>
 
-<h3 class="px-3 text-success">Shubham Srivastava<br>
-shubhamsrivastava08@gmail.com<br>
-+918887717686<br>
-instagram.com/chresko<br>
-</h3>
-</body>
+  <body class="bg-dark text-white">
+
+    <?php include "topPanel.php"; ?>
+    <br>
+    <h3 class="px-3 text-white">Shubham Srivastava<br>
+      shubhamsrivastava08@gmail.com<br>
+      +918887717686<br>
+      instagram.com/chresko<br>
+    </h3>
+  </body>
 </html>

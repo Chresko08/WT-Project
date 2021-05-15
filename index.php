@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-<title>Introduction . getgoing</title>
+  <head>
+    <title>Introduction . getgoing</title>
+    <?php include("includes.php") ?>
+  </head>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</head>
+  <body class="bg-dark text-white">
 
-<body class="bg-dark text-white">
-
-<?php include "topPanel.php"; ?>
-
-	<div class="form-group px-3">
-    <label for="idea">Share your business idea with us and we will help you.</label>
-    <textarea class="form-control" id="idea" rows="5" placeholder="Write here"></textarea>
+    <?php include "topPanel.php"; ?>
+    <?php include "photos.php"; ?>
     <br>
-    <button type="submit" class="btn btn-success btn-lg">Submit</button>
-  </div>
-
-</body>
+    <div class="form-group px-3">
+      <label for="idea">Share your business idea with us and we will help you.</label>
+      <textarea class="form-control" id="idea" rows="5" placeholder="Write here"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-4 text-center"><input class="form-control form-control-lg" type="email" id="email" placeholder="Email Address" required></div>
+        <div class="col-md-4"></div>
+        <div class="col-md-4"></div>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-success btn-lg">Submit</button>
+    </div>
+  </body>
 
 </html>

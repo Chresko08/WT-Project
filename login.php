@@ -1,47 +1,31 @@
 <html>
-<head>
-<title>Introduction . getgoing</title>
-    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-</head>
-<body class="bg-dark text-white">
+    <head>
+        <title>Introduction . getgoing</title>
+        <?php include("includes.php") ?>
+    </head>
+    <body class="bg-dark text-white">
 
-<?php include "topPanel.php"; ?>
-
-         <div class="container-fluid">
-    <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4 text-center">
-                <input class="form-control form-control-lg" type="email" id="email" placeholder="Email ID" required="">
+        <?php include "topPanel.php"; ?>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4 text-center"><input class="form-control form-control-lg" type="email" id="email" placeholder="Email ID" required=""></div>
+                <div class="col-md-4"></div>
             </div>
-            <div class="col-md-4"></div>
-    </div>
-    <br>   
-    <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4 text-center"><input class="form-control form-control-lg" type="password" id="pwd" placeholder="Password" required=""></div>
-            <div class="col-md-4"></div>
-    </div>
-    <br>   
-    <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4 text-center"><button type="submit" class="btn btn-success btn-lg" onclick="myFunction()">Sign in</button></div>
-            <div class="col-md-4"></div>
-    </div>
-</div>
+            <br>   
+            <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 text-center"><input class="form-control form-control-lg" type="password" id="pwd" placeholder="Password" required=""></div>
+                    <div class="col-md-4"></div>
+            </div>
+            <br>   
+            <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4 text-center"><button type="submit" class="btn btn-success btn-lg" onclick="myFunction()">Sign in</button></div>
+                    <div class="col-md-4"></div>
+            </div>
+        </div>
 
-<script>
-function myFunction() {
-    if ((document.getElementById("email").value=="shubhamsrivastava08@gmail.com") && (document.getElementById("pwd").value=="12345"))
-    {
-        alert("Logged in as admin");
-    }
-    else
-    {
-        alert("Logged in as user");
-    }
-}
-</script>
-
-</body>
+    </body>
 </html>
